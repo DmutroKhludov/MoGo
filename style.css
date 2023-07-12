@@ -1,0 +1,57 @@
+:root{
+    --logo-color: #95E1D3;
+    --line-color: #F38181;
+    --first-color: #333;
+    --second-color: #B6B6B6;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    list-style: none;
+}
+.line{
+    width: 60px;
+    height: 4px;
+    background: #F38181;
+}
+.header{
+    color: rgb(142, 201, 54);
+    width: 98px;
+    height: 33px;
+    text-decoration: none; 
+}
+.about{
+    color: red;
+}
+.footer{
+    background: rgb(142, 201, 54);
+    border: none;
+    padding: 14px 38px;
+    cursor: pointer;
+}
+.Laaqiq{
+    color: red;
+}
+.input{
+    color: #b6b6b6;
+    padding: 12px 10px;
+    width: 230px;
+}
+.title{
+    font-weight: 400;
+    font-size: 24px;
+}
+.text{
+    font-weight: 700;
+    font-size: 30px;
+}
+.img{
+    width: 380px;
+    height: 470px;
+}
+img{
+    width: 37px;
+    height: 37px;   
+}
