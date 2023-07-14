@@ -16,7 +16,7 @@ ul{
     height: 4px;
     background: #F38181;
 }
-.header{
+.header-nav{
     color: rgb(142, 201, 54);
     width: 98px;
     height: 33px;
@@ -54,4 +54,26 @@ ul{
 img{
     width: 37px;
     height: 37px;   
+}
+.section-one{
+    margin-top: 81px;
+}
+.section-two{
+    margin-top: 100px;
+}
+.team-position{
+    color: var(--second-color);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.class-footer{
+    margin-top: 80px;
+    border-top: 1px solid var(--second-color);
+    padding-bottom: 20px ;
+    padding-top: 22px;
+}
+.footer-text{
+    font-size: 14px;
 }
