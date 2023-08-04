@@ -17,7 +17,6 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    border: 2px solid red;
 }
 
 
@@ -37,9 +36,6 @@ body{
     width: 98px;
     height: 33px;
     text-decoration: none; 
-}
-.about{
-    color: red;
 }
 .Laaqiq{
     color: red;
@@ -135,4 +131,22 @@ ol, ul{
     list-style: none; 
     padding: 0; 
     margin: 0; 
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-list{
+    display: flex;
+    gap: 55px;
+}
+.header{
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.hero-item{
+    width: 328px;
+   display: flex;
 }
