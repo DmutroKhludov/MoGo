@@ -143,10 +143,17 @@ ol, ul{
     gap: 55px;
 }
 .header{
+    display: flex;
     padding-top: 17px;
     padding-bottom: 17px;
+    justify-content: space-between;
 }
 .hero-item{
     width: 328px;
    display: flex;
 }
+.span-wrap{
+    display: flex;
+    justify-content: center;
+}
+
