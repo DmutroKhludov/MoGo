@@ -30,6 +30,7 @@ body{
     height: 4px;
     background: var(--line-color);
     border-radius: 20px;
+    text-align: center;
 }
 .header-nav{
     color: rgb(142, 201, 54);
@@ -104,6 +105,8 @@ img{
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
     font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
 }
 .text{
     color: var(--first-color);
@@ -150,10 +153,13 @@ ol, ul{
 }
 .hero-item{
     width: 328px;
-   display: flex;
+    margin-right: 30px;
 }
-.span-wrap{
+
+.list-wrap{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 66px;
 }
 
