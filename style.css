@@ -65,10 +65,9 @@ img{
     height: 37px;   
 }
 .section-one{
-    margin-top: 81px;
+    margin-top: 40px;
 }
 .section-two{
-    margin-top: 100px;
 }
 .team-position{
     color: var(--second-color);
@@ -112,6 +111,8 @@ img{
     color: var(--first-color);
     font-size: 30px;
     font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
 }
 .amazing-text{
     color: var(--second-color);
@@ -144,6 +145,8 @@ ol, ul{
 .header-list{
     display: flex;
     gap: 55px;
+    justify-content: space-between;
+   
 }
 .header{
     display: flex;
@@ -153,7 +156,8 @@ ol, ul{
 }
 .hero-item{
     width: 328px;
-    margin-right: 30px;
+    margin-bottom: 100px;
+    display: flex;
 }
 
 .list-wrap{
@@ -161,5 +165,13 @@ ol, ul{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 66px;
+}
+.span-wrap{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px ;
+}
+.img-wrap{
+    margin-right: 18px;
 }
 
