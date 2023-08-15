@@ -25,12 +25,11 @@ body{
     text-decoration: none;
 
 }
-.line{
+.line{     
     width: 60px;
     height: 4px;
     background: var(--line-color);
-    border-radius: 20px;
-    text-align: center;
+    margin: 0 auto;
 }
 .header-nav{
     color: rgb(142, 201, 54);
@@ -101,11 +100,11 @@ img{
 }
 .title{
     color: var(--first-color);
-    font-family: 'Kaushan Script', cursive;
-    font-size: 24px;
     font-weight: 400;
+    font-size: 24px;
+    font-family: 'Kaushan Script';
     text-align: center;
-    margin-bottom: 40px;
+    margin: 0 auto;
 }
 .text{
     color: var(--first-color);
@@ -113,6 +112,7 @@ img{
     font-weight: 700;
     text-align: center;
     margin-bottom: 40px;
+
 }
 .amazing-text{
     color: var(--second-color);
@@ -143,7 +143,7 @@ ol, ul{
 
 }
 .header-list{
-    display: flex;
+   display: flex;
     gap: 55px;
     justify-content: space-between;
    
@@ -157,7 +157,7 @@ ol, ul{
 .hero-item{
     width: 328px;
     margin-bottom: 100px;
-    display: flex;
+   
 }
 
 .list-wrap{
